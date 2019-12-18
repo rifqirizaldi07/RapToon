@@ -136,19 +136,19 @@ export default class Login extends Component {
               <Text style={styles.label}>Username</Text>
               <Item rounded>
                 <Input
-                  placeholder="Email"
+                  placeholder=""
                   keyboardType="email-address"
                   onChangeText={username => this.userValidation(username)}
-                  style={{backgroundColor: 'white'}}
+                  style={{color: 'white'}}
                 />
               </Item>
               <Text style={styles.label}>Password</Text>
               <Item rounded>
                 <Input
                   secureTextEntry={this.state.pass}
-                  placeholder="password"
+                  placeholder=""
                   onChangeText={password => this.passValidation(password)}
-                  style={{backgroundColor: 'white'}}
+                  style={{color: 'white'}}
                 />
               </Item>
             </Form>

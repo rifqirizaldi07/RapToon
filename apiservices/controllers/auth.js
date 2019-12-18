@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const models = require('../models');
 const User = models.user;
 
-const ip = `http://192.168.1.16:5001/`;
+const ip = `https://limitless-island-96229.herokuapp.com`;
 // `http://192.168.43.122:5001/`
 
 exports.register = (req, res) => {

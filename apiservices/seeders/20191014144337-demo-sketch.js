@@ -40,7 +40,7 @@ module.exports = {
           genre: 'Drama',
           isFavorite: true,
           image:
-            'https://cdn.idntimes.com/content-images/community/2019/03/6d0a9079a454d64fc74322862c0de1ed-66a00b52de00ef98aae34bee81593598_600x400.jpg',
+            'https://cdn.idntimes.com/content-images/community/2019/05/my-anti-fan-cover-1-8c08a8bc18c2eb167c7d63c3d9cc33f1_600x400.jpg',
           created_by: 1,
           createdAt: new Date(),
           updatedAt: new Date(),
